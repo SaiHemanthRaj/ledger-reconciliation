@@ -1,0 +1,28 @@
+{
+  "cutoff": "2026-09-30",
+  "exceptions": 53,
+  "excluded_future_ledger": 0,
+  "excluded_future_settlements": 0,
+  "grace_days": 2,
+  "input_ledger_rows": 1008,
+  "input_settlement_rows": 1005,
+  "inputs_sha256": {
+    "ledger.csv": "db5aa7c5e60d4b8446a3eb3f98e7033b434005380eb9fe492f32baa7598d0d31",
+    "settlements.csv": "d6aa8366afdfa6664722c9c8edd719ebf526553e173bd94e7ddd0f099597b6e9"
+  },
+  "orders_reviewed": 1010,
+  "status_counts": {
+    "amount_mismatch": 10,
+    "currency_mismatch": 10,
+    "duplicate_ledger": 8,
+    "duplicate_settlement": 5,
+    "matched": 947,
+    "missing_settlement": 10,
+    "pending": 10,
+    "unexpected_settlement": 10
+  },
+  "tolerance_cents": 0,
+  "unambiguous_difference_cents_by_currency": {
+    "USD": 24900
+  }
+}
